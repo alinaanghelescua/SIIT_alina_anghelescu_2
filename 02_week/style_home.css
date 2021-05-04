@@ -103,3 +103,10 @@ color:black;
     color:rgb(119, 118, 118)
 }
 
+ul {
+    list-style: none;
+    position: absolute;
+    right:30px ;
+}
+
+p { font-family: helvetica; }
