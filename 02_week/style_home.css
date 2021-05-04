@@ -104,9 +104,9 @@ color:black;
 }
 
 ul {
+    display: flexbox;
     list-style: none;
-    position: absolute;
-    right:30px ;
+    right:10px ;
 }
 
 p { font-family: helvetica; }
