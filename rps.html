@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/510b04f5c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="rps.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock Paper Scissors</h1>
+            <button id="reset" class="reset-game">Reset Game</button>
+            <div id="score" class="score">
+                <p id="computer-score"></p>
+                <p id="player-score"></p>
+            </div>
+        </header>
+        <div class="selections">
+            <img id="user-choice-rock" class="choice" src="rock.jpeg" alt="rock">
+            <img id="user-choice-paper" class="choice" src="paper.jpeg" alt="paper">
+            <img id="user-choice-scissors" class="choice" src="scissors.jpeg" alt="scissors">
+
+        </div>
+        <div id="start-btn" class="start-button">Start</div>
+
+    </div>
+
+
+    <div class="modal">
+        <div id="result" class="md-content">
+             <h3 id="winner"></h3>
+             <p id="computerChoiceModal">Computer chose </p>
+            
+            
+            <button id="close-modal" class="close-md">Close</button>
+
+        </div>
+
+    </div>
+
+    <script src="rps.js"></script>
+</body>
+
+</html>
